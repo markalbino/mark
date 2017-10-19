@@ -20,7 +20,7 @@ public class ImparesPares {
                 System.out.println(" " + v);
 
             } else {
-                System.out.println("\n O numero " + i + " eh IMPAR\n");  //else verifica se é impar              
+                System.out.println("\n O numero " + i + " eh IMPAR\n");              
 
                 n = i + i;
                 System.out.println(" " + n);
