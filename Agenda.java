@@ -53,7 +53,7 @@ public class Agenda {
 
         System.out.println("\n\nListando os Registros Gravados");
         
-        // Leitura do Banco de Dados
+        
         conexao = DriverManager.getConnection("jdbc:mysql://localhost:3306/cadastro", usuario, senha);
         sql = "SELECT * FROM agenda ORDER BY nome";
         ps = conexao.prepareStatement(sql);
